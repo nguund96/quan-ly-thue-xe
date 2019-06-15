@@ -1,0 +1,31 @@
+﻿
+                                           PHÍM TẮT
+
+-Thêm người thuê xe: Ctrl + N                                           (N: New)
+-Lọc:
++Theo tiền thuê xe (Giảm dần theo từng loại): Ctrl + Shift + M          (M: Money)
++Theo số giờ thuê (Giảm dần theo từng loại): Ctrl + Shift + T           (T: Time)
++Theo tình trạng (Chưa Trả -> Đã Trả theo từng loại): Ctrl + Shift + S  (S: Status)
+
+-Tìm kiếm: Ctrl + F                                                     (F: Find)
+-Xóa xe đã trả:  Ctrl + Shift + D                                       (D: Delete)
+-Thoát: Ctrl + E                                                        (E: Exit)
+
+-Thay đổi giá: Ctrl + Shift + C                                         (C: Change)
+-Tính tổng tiền: Ctrl + T                                               (T: Total)
+-Lưu dữ liệu xuống file text: Ctrl + S                                  (S: Save)
+-Khôi phục dữ liệu: Ctrl + B                                            (B: Backup)
+
+                                     MỘT SỐ RÀNG BUỘC
+1. Họ tên khách hàng chỉ được phép có chữ cái.
+2. Số CMND phải có 9 chữ số.
+3. Số giờ thuê chỉ được nhập số và dấu phẩy.
+4. Biển số xe phải có ít nhất 8 ký tự.
+   Ví dụ: Biển số: 47-E1 06700 thì chỉ cần nhập 47e106700
+
+5. Mỗi số CMND chỉ được phép thuê 1 xe.
+6. Mỗi xe chỉ được phép cho 1 người thuê nếu xe chưa được trả.
+7. Khi máy tắt đột ngột hoặc bạn quên lưu dữ liệu thì hãy cứ yên tâm "quay tay" vì dữ liệu sẽ được tự động lưu vào máy của bạn.
+8. Khôi phục dữ liệu: Bạn có thể chọn nhiều file cùng một lúc để khôi phục.
+
+Lưu ý: Dữ liệu khi lưu lại dưới file text đã có một định dạng sẵn, nếu bạn thay đổi gì đó trong file này thì có thể dữ liệu ở file đó không thể khôi phục lại được.
